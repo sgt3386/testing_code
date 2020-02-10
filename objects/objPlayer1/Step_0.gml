@@ -21,7 +21,16 @@ switch (state) {
 	}
 	
 }
-x += xspeed
+
+//detect collision with sides
+if (place_meeting(x + xspeed, y, objSolid)) {
+	while (!place_meeting(x + sign(xspeed),y, objSolid)) {
+		x += sign(xspeed);
+	}
+	xspeed = 0;
+}
+
+x += xspeed;
 
 #endregion
 #endregion
