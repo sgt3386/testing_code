@@ -12,14 +12,16 @@ right = keyboard_check(vk_right);
 #region State Machine
 #region move state
 switch (state) {
-	case player.moving:
+	case player1.moving:
 	if (right or left) {
 		xspeed += (right - left) * acceleration; //determines direction
-		//xspeed = clamp(xspeed,-max_speed,max_speed);
+		xspeed = clamp(xspeed,-max_speed,max_speed);
+	} else {
+		xspeed = 0
 	}
 	
 }
-x = xspeed
+x += xspeed
 
 #endregion
 #endregion

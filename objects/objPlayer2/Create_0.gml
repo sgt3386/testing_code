@@ -4,9 +4,12 @@
 xspeed = 0;
 acceleration = 1;
 max_speed = 4;
+x = 640;
 
-enum player {
+draw_self();
+
+enum player2 {
 	moving
 }
 
-state = player.moving //default
+state = player2.moving //default
