@@ -12,6 +12,7 @@ global.PlayerData[1,1] = 0;
 
 //General game data
 global.rally = 0;
+global.rallymax = 0;
 
 
 
