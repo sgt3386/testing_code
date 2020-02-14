@@ -5,7 +5,9 @@
 
 switch (state) {
 	case ball.moving:
-
+	
 	y += ydirection;
 	x += xdirection;
+		
 }
+

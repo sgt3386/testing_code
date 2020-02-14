@@ -5,7 +5,7 @@
 
 #region Setup Player controls
 left = keyboard_check(ord("A"));
-right = keyboard_check(ord("D"));
+right = keyboard_check(ord("D"))
 
 #endregion
 
@@ -17,10 +17,13 @@ switch (state) {
 		xspeed += (right - left) * acceleration; //determines direction
 		xspeed = clamp(xspeed,-max_speed,max_speed);
 	} else {
-		xspeed = 0
+		xspeed = 0;
 	}
 	
+
+
 }
+
 //detect collision with sides
 if (place_meeting(x + xspeed, y, objSolid)) {
 	while (!place_meeting(x + sign(xspeed),y, objSolid)) {
