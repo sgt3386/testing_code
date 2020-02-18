@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "167f6894-33ea-4263-9201-ebc5cea008e0",
+            "Value": {
+                "id": "b97b5d99-d750-4f65-874b-a83d250d864d",
+                "resourcePath": "scripts\\scrBlur\\scrBlur.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d3467be-2510-4564-8dfe-3a85f94614d2",
             "Value": {
                 "id": "0fe5eb09-6aca-4823-80c6-bb6929813b76",
@@ -328,7 +336,7 @@
         }
     ],
     "script_order": [
-        
+        "167f6894-33ea-4263-9201-ebc5cea008e0"
     ],
     "tutorial": ""
 }

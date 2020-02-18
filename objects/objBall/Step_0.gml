@@ -2,7 +2,6 @@
 #region Some Comment
 #endregion
 
-
 switch (state) {
 	case ball.moving:
 	

@@ -8,5 +8,5 @@ draw_text(x, y, (string(global.PlayerData[0,0]) + " - " + string(global.PlayerDa
 draw_set_color(c_p2base);
 draw_text(x, y+50, (string(global.PlayerData[1,0]) + " - " + string(global.PlayerData[1,1])));
 draw_set_color(c_yellow);
-draw_text(x, y+200, ("Max Rally" + " " + string(global.rallymax)));
-draw_text(x, y+250, ("Current Rally" + " " + string(global.rally)));
+draw_text(x-30, y+200, ("Max Rally: " + string(global.rallymax)));
+draw_text(x-30, y+250, ("Current Rally: " + string(global.rally)));

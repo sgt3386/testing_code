@@ -7,6 +7,8 @@ ydirection = choose(-1,1);
 xdirection = choose(-1,1);
 x = 640;
 y = 360;
+hitlast_p1 = false;
+hitlast_p2 = false;
 
 draw_self();
 
