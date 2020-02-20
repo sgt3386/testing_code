@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "0d463fb3-01c9-460c-ada0-23bbea644ad8",
+            "Value": {
+                "id": "129a3dc7-f4ad-4104-a349-404c4bbbee81",
+                "resourcePath": "fonts\\fntStandardTitle\\fntStandardTitle.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "0eefe687-0099-43e6-bee9-91596ebed30b",
+            "Value": {
+                "id": "86b10697-4b6d-49ad-b80d-5f6b5319377a",
+                "resourcePath": "views\\0eefe687-0099-43e6-bee9-91596ebed30b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "167f6894-33ea-4263-9201-ebc5cea008e0",
             "Value": {
                 "id": "b97b5d99-d750-4f65-874b-a83d250d864d",
@@ -60,6 +76,14 @@
                 "id": "d373919d-f92e-4300-b7b1-9851ec07a6c7",
                 "resourcePath": "views\\3d6d0622-b6b8-4fa1-b7e3-a598249bd280.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "457c7b53-27e3-4e61-9412-c69d99440b60",
+            "Value": {
+                "id": "b6199e5d-4736-4168-bf0a-ef148a224e65",
+                "resourcePath": "sprites\\sprBackground00\\sprBackground00.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
