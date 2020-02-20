@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objGoalP2",
     "eventList": [
-        
+        {
+            "id": "b6cb7c4b-4bed-4f13-9f11-b2f2e765cad4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "a75bfb1c-feb4-47f5-a93c-c2dfc8ef2ca6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "6f6694c6-9f64-4c81-8378-754154b427e7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

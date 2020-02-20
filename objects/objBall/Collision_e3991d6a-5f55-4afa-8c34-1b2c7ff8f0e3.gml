@@ -5,4 +5,13 @@ if (global.rallymax < global.rally) {
 	global.rallymax = global.rally;
 }
 global.rally = 0;
-room_restart();
+
+//room reset
+if ((global.PlayerData[0,1] >= max_score) or (global.PlayerData[1,1] >= max_score)) {
+	global.PlayerData[0,1] = 0;
+	global.PlayerData[1,1] = 0;
+	audio_stop_sound(aTitle);
+	room_goto(rmMain);
+} else {
+	room_restart();
+}

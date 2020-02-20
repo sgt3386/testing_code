@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "37946542-fdb4-4a9c-9f00-641489e05d92",
+            "Value": {
+                "id": "f0908391-ba1b-4d08-99d3-2579ec388121",
+                "resourcePath": "fonts\\fntStandardSuper\\fntStandardSuper.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3d6d0622-b6b8-4fa1-b7e3-a598249bd280",
             "Value": {
                 "id": "d373919d-f92e-4300-b7b1-9851ec07a6c7",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "7acc1bba-dd5c-4169-a65c-3c8a6b34c5dc",
+            "Value": {
+                "id": "a291f3ff-c6b0-4e91-9973-58e01d4637d1",
+                "resourcePath": "objects\\objInit\\objInit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "897bf4b3-8ca4-4024-ab71-ef9de33566a6",
             "Value": {
                 "id": "4a0a9b8b-9220-49d3-ae72-864ab380f0b6",
@@ -252,6 +268,14 @@
                 "id": "8472e514-751f-4975-a27b-bf7f017080bc",
                 "resourcePath": "views\\afd45db7-bda3-49e0-aa99-d729bdfac3c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b00ec70a-e266-4a56-ab71-1896de295f9d",
+            "Value": {
+                "id": "0316751f-968b-45c1-ba72-f6f218325f96",
+                "resourcePath": "rooms\\rmAds\\rmAds.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
