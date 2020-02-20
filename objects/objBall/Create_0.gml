@@ -9,11 +9,11 @@ x = 640;
 y = 360;
 hitlast_p1 = false;
 hitlast_p2 = false;
-max_score = 10;
+max_score = 1;
+
 
 
 draw_self();
-
 
 enum ball {
 	moving
