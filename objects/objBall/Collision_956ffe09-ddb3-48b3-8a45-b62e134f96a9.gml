@@ -10,6 +10,7 @@ if (global.rally == 0) {
 		global.rally += 1;
 		hitlast_p1 = true;
 		hitlast_p2 = false;
+		audio_play_sound(aHit, .5, false);
 	}
 }
 
@@ -21,5 +22,6 @@ ydirection = clamp(ydirection,-max_speed,max_speed);
 if (global.speed_calc > 0) {
 	xdirection = global.speed_calc;
 }
+
 
 //show_debug_message("ball=" + string(x) + ", Player1=" + string(other.x));

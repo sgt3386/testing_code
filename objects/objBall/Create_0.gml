@@ -10,6 +10,7 @@ y = 360;
 hitlast_p1 = false;
 hitlast_p2 = false;
 
+
 draw_self();
 
 
